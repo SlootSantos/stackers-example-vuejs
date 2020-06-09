@@ -1,0 +1,17 @@
+{
+  "envs": [
+    {
+      "example": "123"
+    }
+  ],
+  "node_version": "12.13.1",
+  "output_dir": "dist/",
+  "pre_install": "echo this is the example number $example",
+  "post_install": "ls",
+  "build": "npm run build",
+  "branches": {
+    "prod_env": "master:tag",
+    "stage_env": "master",
+    "dev_env": "develop"
+  }
+}
