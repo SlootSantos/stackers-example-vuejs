@@ -1,9 +1,4 @@
 {
-  "envs": [
-    {
-      "NG_CLI_ANALYTICS": "false"
-    }
-  ],
   "node_version": "12.13.1",
   "output_dir": "dist/",
   "post_install": "ls",
